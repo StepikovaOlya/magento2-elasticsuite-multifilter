@@ -1,0 +1,11 @@
+<?php /** @var \Magento\Framework\View\Element\Template $block */ ?>
+<div id="apply-button-container" data-bind="scope: 'applybutton'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#apply-button-container": {
+                "Magento_Ui/js/core/app": <?= /* @noEscape */ $block->getJsLayout() ?>
+            }
+        }
+    </script>
+</div>

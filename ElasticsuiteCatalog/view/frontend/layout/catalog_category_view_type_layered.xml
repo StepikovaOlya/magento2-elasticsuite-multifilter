@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="sidebar.main">
+            <container name="applybutton.container">
+                <block class="Magento\Framework\View\Element\Template"
+                       name="applybutton.block"
+                       template="Vendic_ElasticsuiteCatalog::layer/apply-filter.phtml"
+                >
+                    <arguments>
+                        <argument name="jsLayout" xsi:type="array">
+                            <item name="components" xsi:type="array">
+                                <item name="applybutton" xsi:type="array">
+                                    <item name="component" xsi:type="string">Vendic_ElasticsuiteCatalog/js/apply-filter</item>
+                                </item>
+                            </item>
+                        </argument>
+                    </arguments>
+                </block>
+            </container>
+        </referenceBlock>
+    </body>
+</page>
