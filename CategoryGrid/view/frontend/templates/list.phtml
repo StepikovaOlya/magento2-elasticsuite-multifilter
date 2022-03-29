@@ -1,0 +1,80 @@
+<?php
+/**
+ * @var Magento\Framework\View\Element\Template $block
+ * @var Magento\Framework\Escaper $escaper
+ */
+?>
+
+<div class="category-list">
+    <div class="category-list-title">
+        <span class="title"><strong><?= $escaper->escapeHtml(__('Snel naar')) ?></strong></span>
+    </div>
+    <ul class="category-list-content">
+        <li class="category-item">
+            <a href="#" class="category-item-info">
+                <img src="<?= $escaper->escapeUrl($block->getViewFileUrl('Vendic_CategoryGrid::img/block_0.png')) ?>"
+                     alt="Winkel_image"/>
+                <strong class="category-item-name">
+                    <a href="#" class="category-item-link" title="Winkel" >
+                        <?= $escaper->escapeHtml(__('Winkel')) ?>
+                    </a>
+                </strong>
+            </a>
+        </li>
+        <li class="category-item">
+            <a href="#" class="category-item-info">
+                <img src="<?= $escaper->escapeUrl($block->getViewFileUrl('Vendic_CategoryGrid::img/block_1.png')) ?>"
+                     alt="Werkplaats_image"/>
+                <strong class="category-item-name">
+                    <a href="#" class="category-item-link" title="Werkplaats">
+                        <?= $escaper->escapeHtml(__('Werkplaats')) ?>
+                    </a>
+                </strong>
+            </a>
+        </li>
+        <li class="category-item">
+            <a href="#" class="category-item-info">
+                <img src="<?= $escaper->escapeUrl($block->getViewFileUrl('Vendic_CategoryGrid::img/block_2.png')) ?>"
+                     alt="Diensten_image"/>
+                <strong class="category-item-name">
+                    <a href="#" class="category-item-link" title="Diensten">
+                        <?= $escaper->escapeHtml(__('Diensten')) ?>
+                    </a>
+                </strong>
+            </a>
+        </li>
+        <li class="category-item">
+            <a href="#" class="category-item-info">
+                <img src="<?= $escaper->escapeUrl($block->getViewFileUrl('Vendic_CategoryGrid::img/block_0.png')) ?>"
+                     alt="Motoren_image"/>
+                <strong class="category-item-name">
+                    <a href="#" class="category-item-link" title="Motoren">
+                        <?= $escaper->escapeHtml(__('Motoren')) ?>
+                    </a>
+                </strong>
+            </a>
+        </li>
+        <li class="category-item">
+            <a href="#" class="category-item-info">
+                <img src="<?= $escaper->escapeUrl($block->getViewFileUrl('Vendic_CategoryGrid::img/block_4.png')) ?>"
+                     alt="Nieuwe_merken_image"/>
+                <strong class="category-item-name">
+                    <a href="#" class="category-item-link" title="Nieuwe merken">
+                        <?= $escaper->escapeHtml(__('Nieuwe merken')) ?>
+                    </a>
+                </strong>
+            </a>
+        </li>
+        <li class="category-item">
+            <a href="#" class="category-item-info">
+                <img src="<?= $escaper->escapeUrl($block->getViewFileUrl('Vendic_CategoryGrid::img/block_5.png')) ?>"
+                     alt="Occassion_merken_image"/>
+                <strong class="category-item-name">
+                    <a href="#" class="category-item-link" title="Occassion merken">
+                        <?= $escaper->escapeHtml(__('Occassion merken')) ?>
+                    </a>
+                </strong>
+            </a>
+        </li>
+    </ul>
+</div>
